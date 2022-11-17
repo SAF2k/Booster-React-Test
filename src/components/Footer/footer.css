@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300;1,400&display=swap");
+
+.footerContainer {
+  height: 90vh;
+  font-family: 'Roboto';
+}
+
+.footerPart1 {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footerPart1 img {
+  height: 87px;
+}
+
+.goInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.goText {
+  color: white;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.goText h2 {
+  font-weight: 400;
+  padding: 30px;
+  font-size: 35px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.goText h5 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 23px;
+  width: 350px;
+}
+
+
+.footerPart2 {
+  height: 42vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  background-color: #f7f7f7;
+}
+
+.footerLogo img {
+    height: 154px;
+}
+
+.exploreText {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.exploreText h2 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.exploreList {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.exploreList a {
+    text-decoration: none;
+    color: black;
+}
+
+.footerAbout {
+    padding-top: 50px;
+}
+
+.goText2 {
+  font-family: "Roboto";
+  font-weight: 400;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.goText2 h2 {
+  font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.goText2 h5{
+  display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+}
+
+.goText2 h4 {
+  display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    padding: 2px;
+}
+
+.footerPart3 {
+    height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 18rem;
+}
+
+.copyRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.paymentMethods img{
+  width: 28rem;
+}

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300;1,400&display=swap");
+
+.ESkateBanner {
+  height: 100vh;
+}
+
+.ESDescription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+  letter-spacing: 1px;
+  font-family: "Roboto";
+  z-index: 0;
+  position: relative;
+  padding-top: 120px;
+}
+
+.ESDescription h2 {
+  padding: 15px;
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.ESDescription h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+     width: 500px;
+    word-spacing: 1px;
+}
+
+
+.ESButton {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ESButton button{
+    background-color: #FF4A32;
+    border-radius: 25px;
+    width: 270px;
+    height: 45px;
+    border: none;
+    color: #fff;
+    z-index: 0;
+}
+
+.ESButton button:hover {
+    background-color: #f75c47;
+    color: black;
+}
+
+.ESBannerImg img{
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
